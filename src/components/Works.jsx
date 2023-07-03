@@ -7,69 +7,74 @@ import {styles} from '../style'
 
 import github  from '../assets/github.png'
 
-import  tripguide  from '../assets/tripguide.png'
+import CCM from '../assets/CCM.png';
 
-import  jobit  from '../assets/jobit.png'
+import emart from '../assets/emart.png'
 
-import  carrent  from '../assets/carrent.png'
+import compsa from '../assets/compsa.png'
 
 import {fadeIn , textVariant} from '../utils/motion'
+
 import { SectionWrapper } from '../hoc'
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Carbon Credit Marketplace",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Greenhouse gas emission is one of the most common and slowly fatal effects.To reduce carbon emissions and take the earth to net zero carbon emissions we have created a sustainable and transparent domestic carbon credit marketplace.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name:"solidity",
+        color:"orange-text-gradient"
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: CCM,
+    source_code_link: "https://github.com/IDY12345/Hack36",
   },
   {
-    name: "Job IT",
+    name: "E-Mart",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to search for latest products that have come to the Market and buy them at a button's click and a get a free home delivery.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "css",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "firebase",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: emart,
+    source_code_link: "https://github.com/IDY12345/E-Mart",
   },
   {
-    name: "Trip Guide",
+    name: "CompSA",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A Student Association Website of my Club where I am jr. web developer.I have developed many of the components of this big website . The home page you see is designed by me and many of the components in the student panel are designed by me.",
     tags: [
       {
-        name: "nextjs",
+        name: "angularjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "firebase",
         color: "green-text-gradient",
       },
       {
@@ -77,8 +82,8 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: compsa,
+    source_code_link: "https://compsa.co.in/Home",
   },
 ];
 
