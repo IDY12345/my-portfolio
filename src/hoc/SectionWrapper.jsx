@@ -3,10 +3,13 @@ import { motion } from 'framer-motion'
 import { styles } from '../style'
 
 import { staggerContainer } from '../utils/motion'
- const SectionWrapper = ({Component} , idName) => 
+ const SectionWrapper = (Component , idName) => 
   {
-    function HOC() {
-        return (
+    class Section extends React.Component{
+ 
+      
+        render() {
+          return(
           <motion.section
             variants={staggerContainer()}
             initial='hidden'
@@ -20,8 +23,10 @@ import { staggerContainer } from '../utils/motion'
     
             <Component />
           </motion.section>
-        );
-    }
+          )
+        };
+      }
+      return Section
 }
 
 export default SectionWrapper;

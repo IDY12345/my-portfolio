@@ -11,7 +11,7 @@ import tesla from "../assets/company/tesla.png";
 import meta from "../assets/company/meta.png";
 import shopify from "../assets/company/shopify.png";
 
-// import { SectionWrapper } from '../hoc'
+import { SectionWrapper } from '../hoc'
 
 import { textVariant } from '../utils/motion';
 const experiences = [
@@ -122,4 +122,4 @@ const ExperienceCard=({experience})=>(
     </VerticalTimelineElement>
 )
 
-export default Experience
+export default SectionWrapper(Experience,"work")

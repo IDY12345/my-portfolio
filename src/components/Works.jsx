@@ -14,6 +14,7 @@ import  jobit  from '../assets/jobit.png'
 import  carrent  from '../assets/carrent.png'
 
 import {fadeIn , textVariant} from '../utils/motion'
+import { SectionWrapper } from '../hoc'
 
 const projects = [
   {
@@ -153,4 +154,4 @@ const Works = () => {
   )
 }
 
-export default Works
+export default SectionWrapper(Works,"")

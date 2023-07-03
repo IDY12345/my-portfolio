@@ -5,6 +5,8 @@ import { styles } from '../style'
 
 import {fadeIn,textVariant} from '../utils/motion';
 
+import  {SectionWrapper}  from '../hoc'
+
 const testimonials = [
   {
     testimonial:
@@ -82,4 +84,4 @@ const Feedbacks = () => {
   )
 }
 
-export default Feedbacks
+export default SectionWrapper(Feedbacks,"")

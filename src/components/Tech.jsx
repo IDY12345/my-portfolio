@@ -1,6 +1,6 @@
 import React from 'react'
 import { BallCanvas } from './canvas'
-
+import  {SectionWrapper}  from '../hoc'
 import css from "../assets/tech/css.png";
 import docker from "../assets/tech/docker.png";
 import figma from "../assets/tech/figma.png";
@@ -83,4 +83,4 @@ const Tech = () => {
   )
 }
 
-export default Tech
+export default SectionWrapper(Tech,"")

@@ -2,14 +2,13 @@ import React from 'react'
 import {Tilt} from 'react-tilt'
 import {motion} from 'framer-motion'
 import { styles } from '../style'
-// import { services } from '../constants'
 import {fadeIn,textVariant } from '../utils/motion'
-// import  {SectionWrapper}  from '../hoc'
+import  {SectionWrapper}  from '../hoc'
 import backend from "../assets/backend.png";
 import creator from "../assets/creator.png";
 import mobile from "../assets/mobile.png";
 import web from '../assets/web.png'
-
+// import SectionWrapper from '../hoc'
 const services = [
   {
     title: "Web Developer",
@@ -64,4 +63,4 @@ const About = () => {
   )
 }
 
-export default About
+export default SectionWrapper(About,"about")
