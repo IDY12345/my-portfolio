@@ -6,47 +6,43 @@ import 'react-vertical-timeline-component/style.min.css' ;
 
 import {styles} from '../style'
 
-import starbucks from "../assets/company/starbucks.png";
-import tesla from "../assets/company/tesla.png";
-import meta from "../assets/company/meta.png";
-import shopify from "../assets/company/shopify.png";
-
+// import starbucks from "../assets/company/starbucks.png";
+// import tesla from "../assets/company/tesla.png";
+// import meta from "../assets/company/meta.png";
+import WebD from "../assets/WebD.png";
+import reactjs from "../assets/tech/reactjs.png";
+import CompSA1 from '../assets/CompSA1.png'
 import { SectionWrapper } from '../hoc'
 
 import { textVariant } from '../utils/motion';
 const experiences = [
   {
     title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    icon: reactjs,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I have been in a developer of react js more than a year .",
+      "I have developed front-end for many of web application which I have worked on for various hackathons.",
     ],
   },
   {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    icon: reactjs,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "June 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+        "I have Recently Started Working on Rect-Native and started developing small apps.",
+        "I am still in learning process."
     ],
   },
   {
     title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    icon: WebD,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2022 - Present",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -55,16 +51,15 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Angular JS Developer",
+    icon: CompSA1,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "July 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "I have developed various components for my club's websites.",
+      "Developing and maintaining web applications using Angular js and other related technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I worked as a junior web developer for my club CompSA."
     ],
   },
 ];
@@ -105,7 +100,7 @@ const ExperienceCard=({experience})=>(
       <h3 className='text-white text-[24px] font-bold '>
         {experience.title}
       </h3>
-      <p className='text-secondary text-[16px] font-semibold' style={{margin:0}}>{experience.company_name}</p>
+      <p className='text-secondary text-[16px] font-semibold' style={{margin:0}}></p>
       </div>
 
       <ul className='mt-5 list-disc ml-5 space-y-2'>
