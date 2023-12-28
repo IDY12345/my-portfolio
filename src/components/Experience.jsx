@@ -9,7 +9,8 @@ import {styles} from '../style'
 // import starbucks from "../assets/company/starbucks.png";
 // import tesla from "../assets/company/tesla.png";
 // import meta from "../assets/company/meta.png";
-import WebD from "../assets/WebD.png";
+// import WebD from "../assets/WebD.png";
+import next from "../assets/next-js.svg"
 import reactjs from "../assets/tech/reactjs.png";
 import CompSA1 from '../assets/CompSA1.png'
 import { SectionWrapper } from '../hoc'
@@ -39,15 +40,15 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    icon: WebD,
+    title: "Next JS Developer",
+    icon: next,
     iconBg: "#383E56",
-    date: "March 2022 - Present",
+    date: "March 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "I have been Developing a website for coders club.",
+      "Developing and maintaining web applications using Next.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {

@@ -14,7 +14,7 @@ import redux from "../assets/tech/redux.png";
 import tailwind from "../assets/tech/tailwind.png";
 import typescript from "../assets/tech/typescript.png";
 import threejs from "../assets/tech/threejs.svg";
-
+import next from '../assets/next-js.svg'
 
 const technologies = [
   {
@@ -69,6 +69,11 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name:'next',
+    icon:next,
+  },
+  
 ];
 
 const Tech = () => {

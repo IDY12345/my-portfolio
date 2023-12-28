@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom'
 
 import {styles} from '../style'
 
+import menu from '../assets/menu.svg'
+
+import close from '../assets/close.svg'
+
 import Logo6 from '../assets/Logo6.png'
 
 const navLinks = [
@@ -80,12 +84,12 @@ const Navbar = () => {
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
-          {/* <img
+          <img
             src={toggle ? close : menu}
             alt='menu'
             className='w-[28px] h-[28px] object-contain'
             onClick={() => setToggle(!toggle)}
-          /> */}
+          />
 
           <div
             className={`${
