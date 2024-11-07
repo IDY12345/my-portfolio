@@ -13,11 +13,38 @@ import emart from '../assets/emart.png'
 
 import compsa from '../assets/compsa.png'
 
+import lms from '../assets/lms.png'
+
 import {fadeIn , textVariant} from '../utils/motion'
 
 import { SectionWrapper } from '../hoc'
 
 const projects = [
+  {
+    name: "Learning Management Portal",
+    description:
+      "I developed a user-friendly Learning Management Portal (LMP) focused on streamlining course management and enhancing the educational experience. Key features include course and student dashboards, secure AWS S3 storage integration for resource management, role-based access control, and a responsive design. This project demonstrates my skills in building scalable and secure applications for education.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind-css",
+        color: "pink-text-gradient",
+      },
+      {
+        name:"aws-s3",
+        color:"orange-text-gradient"
+      }
+    ],
+    image: lms,
+    source_code_link: "https://github.com/IDY12345/Hack36",
+  },
   {
     name: "Carbon Credit Marketplace",
     description:

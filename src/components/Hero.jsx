@@ -4,6 +4,8 @@ import { motion } from 'framer-motion'
 
 import { styles } from '../style'
 
+import { ComputerCanvas } from './canvas/Computers'
+
 import PC2 from '../assets/PC2.jpg'
 import PC1 from '../assets/company/PC1.jpeg'
 
